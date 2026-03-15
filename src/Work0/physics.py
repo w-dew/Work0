@@ -2,13 +2,12 @@
 import taichi as ti
 from .config import *
 
-# 1. 数据结构定义：在显存中开辟空间
+# 数据结构定义：在显存中开辟空间
 pos = ti.Vector.field(2, dtype=float, shape=NUM_PARTICLES)
 vel = ti.Vector.field(2, dtype=float, shape=NUM_PARTICLES)
 
 @ti.kernel
 def init_particles():
-    """初始化每一个粒子的随机坐标"""
     for i in range(NUM_PARTICLES):
         pos[i] = [ti.random(), ti.random()]
         vel[i] = [0.0, 0.0]

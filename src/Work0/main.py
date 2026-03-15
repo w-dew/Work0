@@ -1,10 +1,8 @@
 # src/Work0/main.py
 import taichi as ti
 
-# 注意：初始化必须在最前面执行，接管底层 GPU
 ti.init(arch=ti.gpu)
 
-# 导入我们自己写的模块
 from .config import WINDOW_RES, PARTICLE_COLOR, PARTICLE_RADIUS
 from .physics import init_particles, update_particles, pos
 

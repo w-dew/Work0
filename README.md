@@ -61,4 +61,4 @@ def update_particles(mouse_x: float, mouse_y: float):
 ## 4. 效果展示
 
 ### 演示视频
-[点击查看：粒子群交互效果演示]()
+[点击查看：粒子群交互效果演示](./assets/202603152130.mp4)

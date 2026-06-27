@@ -1,4 +1,5 @@
 # 实验项目：基于 Taichi 的万有引力粒子群仿真系统
+**姓名**：王婧怡　｜　**学号**：202311081051　｜　**专业**：计算机科学与技术
 
 ## 1. 项目架构
 本项目采用模块化设计，将硬件初始化、物理模拟与参数控制分离，确保了代码的可维护性。
@@ -61,4 +62,5 @@ def update_particles(mouse_x: float, mouse_y: float):
 ## 4. 效果展示
 
 ### 演示视频
-[点击查看：粒子群交互效果演示](./assets/202603152130.mp4)
+<img width="480" height="270" alt="work1" src="https://github.com/user-attachments/assets/c5ddb99f-028a-4a57-b00f-5cf44e060b47" />
+
